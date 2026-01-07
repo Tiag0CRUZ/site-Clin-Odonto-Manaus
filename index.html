@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clin Odonto Manaus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navbar -->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <span class="logo-text">Clin Odonto</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#servicos" class="nav-link">Serviços</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                    <button class="btn btn-secondary" onclick="agendarConsulta()">Agendar Consulta</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Seu Sorriso Perfeito Começa Aqui</h1>
+                    <p>Tecnologia avançada, profissionais experientes e atendimento personalizado para transformar seu sorriso.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-secondary" onclick="agendarConsulta()">Agendar Consulta</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-consultorio.jpg" alt="Consultório moderno">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas para sua saúde bucal</p>
+            </div>
+
+            <div class="servicos-grid">
+                <!-- Ortodontia -->
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>Ortodontia</h3>
+                    <p>Alinhamento perfeito dos dentes com técnicas modernas e confortáveis. Transforme seu sorriso com segurança.</p>
+                    <a href="#" class="service-link">Saiba Mais →</a>
+                </div>
+
+                <!-- Implantes -->
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Implantes Dentários</h3>
+                    <p>Restauração completa de dentes perdidos com implantes de alta qualidade. Recupere sua confiança.</p>
+                    <a href="#" class="service-link">Saiba Mais →</a>
+                </div>
+
+                <!-- Alinhadores -->
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Alinhadores</h3>
+                    <p>Solução discreta e eficaz para alinhar os dentes. Sem fios, sem incômodo, com resultados visíveis.</p>
+                    <a href="#" class="service-link">Saiba Mais →</a>
+                </div>
+
+                <!-- Clareamento -->
+                <div class="service-card">
+                    <div class="service-icon">💎</div>
+                    <h3>Clareamento Dental</h3>
+                    <p>Dentes mais brancos e brilhantes em poucas sessões. Tratamento seguro e profissional.</p>
+                    <a href="#" class="service-link">Saiba Mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="transformacao">
+        <div class="container">
+            <div class="transformacao-content">
+                <div class="transformacao-text">
+                    <h2>Transformação de Sorriso</h2>
+                    <p>Veja a diferença que nossos tratamentos podem fazer. Pacientes satisfeitos com resultados extraordinários.</p>
+                    
+                    <ul class="beneficios-list">
+                        <li>
+                            <span class="check-mark">✓</span>
+                            <span>Resultados visíveis em poucas semanas</span>
+                        </li>
+                        <li>
+                            <span class="check-mark">✓</span>
+                            <span>Técnicas modernas e seguras</span>
+                        </li>
+                        <li>
+                            <span class="check-mark">✓</span>
+                            <span>Acompanhamento profissional contínuo</span>
+                        </li>
+                        <li>
+                            <span class="check-mark">✓</span>
+                            <span>Garantia de satisfação</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="transformacao-image">
+                    <img src="images/smile-transformation.jpg" alt="Transformação de sorriso">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="equipe">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa Equipe</h2>
+                <p>Profissionais experientes e dedicados ao seu bem-estar</p>
+            </div>
+
+            <div class="equipe-content">
+                <div class="equipe-image">
+                    <img src="images/dentist-professional.jpg" alt="Dentista profissional">
+                </div>
+                <div class="equipe-text">
+                    <p>Nossa equipe é composta por dentistas especializados com anos de experiência em diversos tratamentos odontológicos.</p>
+                    <p>Utilizamos as tecnologias mais avançadas do mercado para garantir procedimentos seguros, eficazes e confortáveis.</p>
+                    <p>Cada paciente recebe um plano de tratamento personalizado, adaptado às suas necessidades e objetivos específicos.</p>
+                    <button class="btn btn-secondary" onclick="agendarConsulta()">Conhecer Nossa Equipe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Estamos prontos para atender você</p>
+            </div>
+
+            <div class="contato-grid">
+                <!-- Telefone -->
+                <a href="tel:+5592984143932" class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Telefone</h3>
+                    <p>(92) 98414-3932</p>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/5592984143932" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3>WhatsApp</h3>
+                    <p>(92) 98414-3932</p>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:clin.odonto@outlook.com" class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>clin.odonto@outlook.com</p>
+                </a>
+
+                <!-- Endereço -->
+                <a href="https://maps.google.com/?q=Av.+Djalma+Batista,+1661,+Manaus,+AM" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Endereço</h3>
+                    <p>Av. Djalma Batista, 1661 - Sala 903 - Millenium Shoping - Chapada, Manaus - AM</p>
+                </a>
+            </div>
+
+            <!-- Mapa -->
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0123456789!2d-60.0!3d-3.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwMDYnMDEuMiJTIDYwwrAwMCc0MC4wIlc!5e0!3m2!1spt-BR!2sbr!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="cta-final">
+                <h3>Pronto para Transformar Seu Sorriso?</h3>
+                <p>Agende sua consulta gratuita hoje mesmo e descubra como podemos ajudar você.</p>
+                <button class="btn btn-secondary" onclick="agendarConsulta()">Agendar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Clin Odonto Manaus</h4>
+                    <p>Transformando sorrisos com tecnologia e profissionalismo desde 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/clin.odonto.manaus" target="_blank" rel="noopener noreferrer" title="Instagram">📷</a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook">👍</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Clin Odonto Manaus. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Serviço</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
