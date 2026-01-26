@@ -7,3 +7,4 @@ Chamadas para ação para agendamento de consultas
     
 Design focado em experiência do usuário e conversão
 
+Testes em https://tiag0cruz.github.io/site-Clin-Odonto-Manaus/
