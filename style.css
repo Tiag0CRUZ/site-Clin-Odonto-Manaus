@@ -62,11 +62,11 @@
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0 1.5rem;
+      padding: 0 0.5rem;
     }
 
     header {
-      background-color: var(--white);
+      background-color: #21446c;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
       position: sticky;
       top: 0;
@@ -77,12 +77,13 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 0;
+      padding: 0.1rem 0;
     }
 
     .logo {
-      height: 50px;
+      height: 110px;
       width: auto;
+      margin-left: -15px;
     }
 
     .nav-links {
@@ -94,7 +95,7 @@
 
     .nav-links a {
       text-decoration: none;
-      color: var(--text-gray);
+      color: var(--white);
       font-weight: 500;
       transition: var(--transition);
       position: relative;
@@ -107,7 +108,7 @@
       left: 0;
       width: 0;
       height: 2px;
-      background-color: var(--primary-green);
+      background-color: var(--primay-green);
       transition: width 0.3s ease;
     }
 
